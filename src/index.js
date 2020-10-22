@@ -1,22 +1,10 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import ComponentDetail from "./CommentDetail";
-import ApprovelDetail from "./ApproveDetails";
+import App from './App';
 
-const App = () => {
-  return (
-    <div className="ui container comments">
-      <ApprovelDetail>
-        <ComponentDetail author="Prachi"/>
-      </ApprovelDetail>
-      <ApprovelDetail>
-        <ComponentDetail author="Ankit"/>
-      </ApprovelDetail>
-      <ApprovelDetail>
-        <ComponentDetail author="Teddy"/>
-      </ApprovelDetail>
-    </div>
-  );
-};
-
-ReactDOM.render(<App />, document.querySelector("#root"));
+ReactDOM.render(
+  <React.StrictMode>
+    <App />
+  </React.StrictMode>,
+  document.getElementById('root')
+);

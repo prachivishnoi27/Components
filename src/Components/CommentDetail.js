@@ -13,9 +13,6 @@ const comment = props => {
           <span className="date">3 days ago</span>
         </div>
         <div className="text">Loved it!</div>
-        <div className="actions">
-          <a className="reply">Reply</a>
-        </div>
       </div>
     </div>
   );
