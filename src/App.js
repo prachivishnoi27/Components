@@ -4,6 +4,7 @@ import Comment from './Components/Comments/Comment';
 import Home from './Components/Home';
 import Season from './Components/Season/season';
 import Pics from './Components/Pics/Pic';
+import Videoplayer from './Components/VideoPlayer/Videoplayer';
 
 function App() {
     return (
@@ -14,6 +15,7 @@ function App() {
                 <Route path="/pic" component={Pics} />
                 <Route path="/season" component={Season} />
                 <Route path="/comment" component={Comment} />
+                <Route path="/videoplayer" component={Videoplayer} />
             </Switch>
         </div>
         </BrowserRouter>
