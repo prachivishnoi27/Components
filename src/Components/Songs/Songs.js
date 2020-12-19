@@ -1,6 +1,12 @@
 import React from 'react';
+import SongList from './SongList';
 
 const Songs = () => {
-    return <div>Song</div>;
-}
+    return (
+        <div>
+            <SongList />
+        </div>
+    );
+};
+
 export default Songs;
